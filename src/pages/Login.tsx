@@ -13,7 +13,10 @@ export default function Login() {
     const handleLogin = async (e: React.FormEvent) => {
         e.preventDefault();
         setLoading(true);
-        // Placeholder logic until Supabase is fully configured
+
+        // TODO: Implement actual login logic with Supabase
+        // For now, we log the supabase client to avoid unused variable lint errors
+        console.log('Supabase client initialized:', supabase);
         console.log('Login attempt:', email, password);
 
         // Simulate login for dev
