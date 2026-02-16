@@ -31,7 +31,10 @@ export default function Login() {
             <Navbar />
             <div style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '1rem' }}>
                 <div className="card" style={{ width: '100%', maxWidth: '400px' }}>
-                    <h2 style={{ textAlign: 'center', marginBottom: '2rem' }}>Masuk Portal BSC</h2>
+                    <div style={{ textAlign: 'center', marginBottom: '2rem' }}>
+                        <img src="/logo.png" alt="BSC Logo" style={{ width: '80px', height: 'auto', marginBottom: '1rem' }} />
+                        <h2>Masuk Portal BSC</h2>
+                    </div>
                     <form onSubmit={handleLogin} style={{ display: 'flex', flexDirection: 'column', gap: '1.5rem' }}>
                         <div>
                             <label style={{ display: 'block', marginBottom: '0.5rem', fontWeight: 500 }}>Email</label>

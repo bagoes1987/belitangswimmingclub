@@ -15,6 +15,7 @@ export default function LandingPage() {
                 textAlign: 'center'
             }}>
                 <div className="container">
+                    <img src="/logo.png" alt="BSC Logo" style={{ width: '120px', height: 'auto', marginBottom: '1.5rem' }} />
                     <h1 style={{ fontSize: '3rem', marginBottom: '1.5rem', lineHeight: 1.2 }}>
                         Belitang Swimming Club <br />
                         <span style={{ color: 'var(--primary)' }}>Cetak Juara Masa Depan</span>

@@ -1,7 +1,7 @@
 
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Menu, X, Waves } from 'lucide-react';
+import { Menu, X } from 'lucide-react';
 
 export default function Navbar() {
     const [isOpen, setIsOpen] = useState(false);
@@ -10,7 +10,7 @@ export default function Navbar() {
         <nav className="glass fixed w-full z-50 top-0 left-0 border-b border-gray-200" style={{ position: 'fixed', width: '100%', zIndex: 50 }}>
             <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', height: '80px' }}>
                 <Link to="/" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none' }}>
-                    <Waves size={32} color="var(--primary)" />
+                    <img src="/logo.png" alt="BSC Logo" style={{ height: '40px', width: 'auto' }} />
                     <span style={{ fontSize: '1.5rem', fontWeight: 'bold', color: 'var(--primary)' }}>BSC</span>
                 </Link>
 
